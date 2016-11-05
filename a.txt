@@ -1,0 +1,5 @@
+
+        if trade["ticker"] == 'AAPL':
+            px = trade["price"]
+            order.addBuy('AAPL', 10, px - 0.02)
+            order.addSell('AAPL', 10, px + 0.02)
